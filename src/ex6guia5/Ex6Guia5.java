@@ -41,7 +41,10 @@ public class Ex6Guia5 {
     public static String[][] sopaLet(String[] palVec, String[][] sopaMat){
         
         for (int i = 0; i < palVec.length; i++) {
-            
+            for (int j = 0; j < palVec.length; j++) {
+                sopaMat[i][j] = palVec[i].substring(j,palVec[j].length());
+                
+            }
             
         }
         
